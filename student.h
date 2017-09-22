@@ -162,10 +162,10 @@ public:
     /**
      * The purpose of this method is to overload the stream insertion
      *
-     * @param ostream out      A output stream
+     * @param ostream outs     A output stream
      * @param Student aStudent A unique student object
      */
-    friend ostream& operator << (ostream& out, const Student& aStudent);
+    friend ostream& operator <<(ostream& outs, const Student& aStudent);
 
 };
 
