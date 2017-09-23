@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cstring>
+using namesapce std;
 
 /**
  * The default student constructor
@@ -135,7 +137,7 @@ double ibonwe::icecream::Student::getAverageMark()
  */
 void ibonwe::icecream::Student::setAverageMark(double aAverageMark)
 {
-    averageMark = averageMark;
+    averageMark = aAverageMark;
 }
 
 /**
@@ -233,7 +235,7 @@ void ibonwe::icecream::Student::setResult(int index, double aResult)
  * @param ostream outs     A output stream
  * @param Student aStudent A unique student object
  */
-ostream &operator<<(ostream &outs, const Student &aStudent)
+ibonwe::icecream::Student::ostream &operator<<(ostream &outs, const Student &aStudent)
 {
     outs << "***** Student Details *****" << endl;
     outs << "---------------------------" << endl;
